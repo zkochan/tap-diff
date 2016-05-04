@@ -1,9 +1,9 @@
 <!--@'# ' + package.name-->
-# tap-diff
+# @zkochan/tap-diff
 <!--/@-->
 
 <!--@shields.flatSquare('npm')-->
-[![NPM version](https://img.shields.io/npm/v/tap-diff.svg?style=flat-square)](https://www.npmjs.com/package/tap-diff)
+[![NPM version](https://img.shields.io/npm/v/@zkochan/tap-diff.svg?style=flat-square)](https://www.npmjs.com/package/@zkochan/tap-diff)
 <!--/@-->
 
 The most human-friendly [TAP reporter](https://github.com/substack/tape#pretty-reporters).
@@ -18,7 +18,7 @@ The most human-friendly [TAP reporter](https://github.com/substack/tape#pretty-r
 This module is installed via npm:
 
 ```sh
-npm install tap-diff --global
+npm install @zkochan/tap-diff --global
 ```
 <!--/@-->
 

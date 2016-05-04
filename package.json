@@ -1,6 +1,6 @@
 {
-  "name": "tap-diff",
-  "version": "0.1.1",
+  "name": "@zkochan/tap-diff",
+  "version": "1.0.0",
   "description": "The most human-friendly TAP reporter",
   "main": "./distributions/index.js",
   "preferGlobal": true,
@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/axross/tap-diff.git"
+    "url": "git+https://github.com/zkochan/tap-diff.git"
   },
   "bugs": {
-    "url": "https://github.com/axross/tap-diff/issues"
+    "url": "https://github.com/zkochan/tap-diff/issues"
   },
-  "homepage": "https://github.com/axross/tap-diff#readme",
+  "homepage": "https://github.com/zkochan/tap-diff#readme",
   "keywords": [
     "tap",
     "tape",
