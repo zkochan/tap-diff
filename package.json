@@ -3,12 +3,14 @@
   "version": "0.1.1",
   "description": "The most human-friendly TAP reporter",
   "main": "./distributions/index.js",
+  "preferGlobal": true,
   "bin": {
     "tap-diff": "./distributions/cli.js"
   },
   "scripts": {
     "babel": "babel ./sources --out-dir ./distributions",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mos test",
+    "md": "mos"
   },
   "author": "axross <kou@axross.org> (http://axross.me/)",
   "license": "MIT",
@@ -24,7 +26,8 @@
     "through2": "^2.0.0"
   },
   "devDependencies": {
-    "babel": "^5.8.34"
+    "babel": "^5.8.34",
+    "mos": "^0.15.0"
   },
   "repository": {
     "type": "git",
