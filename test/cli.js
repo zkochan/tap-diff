@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const okTestPath = path.resolve(__dirname, 'fixtures', 'ok.txt')
 const notOkTestPath = path.resolve(__dirname, 'fixtures', 'not-ok.txt')
-const initTapDiff = require('../distributions')
+const initTapDiff = require('../lib')
 const chalk = require('chalk')
 
 describe('e2e test', () => {

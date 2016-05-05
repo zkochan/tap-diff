@@ -2,13 +2,12 @@
   "name": "@zkochan/tap-diff",
   "version": "1.0.1",
   "description": "The most human-friendly TAP reporter",
-  "main": "./distributions/index.js",
+  "main": "./lib/index.js",
   "preferGlobal": true,
   "bin": {
-    "tap-diff": "./distributions/cli.js"
+    "tap-diff": "./lib/cli.js"
   },
   "scripts": {
-    "babel": "babel ./sources --out-dir ./distributions",
     "test": "mocha && mos test",
     "md": "mos"
   },
@@ -26,7 +25,6 @@
     "through2": "^2.0.0"
   },
   "devDependencies": {
-    "babel": "^5.8.34",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "mos": "^0.15.0"
