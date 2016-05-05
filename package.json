@@ -1,6 +1,6 @@
 {
   "name": "@zkochan/tap-diff",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The most human-friendly TAP reporter",
   "main": "./lib/index.js",
   "preferGlobal": true,
