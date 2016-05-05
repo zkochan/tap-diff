@@ -62,7 +62,7 @@ test('timing test', (t) => {
 * * *
 
 <!--@dependencies({ shield: 'flat-square' })-->
-## <a name="dependencies">Dependencies</a> [![Dependency status for master](https://img.shields.io/david/axross/tap-diff/master.svg?style=flat-square)](https://david-dm.org/axross/tap-diff/master)
+## <a name="dependencies">Dependencies</a> [![Dependency status for master](https://img.shields.io/david/zkochan/tap-diff/master.svg?style=flat-square)](https://david-dm.org/zkochan/tap-diff/master)
 
 - [chalk](https://github.com/chalk/chalk): Terminal string styling done right. Much color.
 - [diff](https://github.com/kpdecker/jsdiff): A javascript text diff implementation.
@@ -77,9 +77,11 @@ test('timing test', (t) => {
 <!--/@-->
 
 <!--@devDependencies({ shield: 'flat-square' })-->
-## <a name="dev-dependencies">Dev Dependencies</a> [![devDependency status for master](https://img.shields.io/david/dev/axross/tap-diff/master.svg?style=flat-square)](https://david-dm.org/axross/tap-diff/master#info=devDependencies)
+## <a name="dev-dependencies">Dev Dependencies</a> [![devDependency status for master](https://img.shields.io/david/dev/zkochan/tap-diff/master.svg?style=flat-square)](https://david-dm.org/zkochan/tap-diff/master#info=devDependencies)
 
 - [babel](https://github.com/babel/babel): Turn ES6 code into readable vanilla ES5 with source maps
+- [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
+- [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
 - [mos](https://github.com/zkochan/mos): A pluggable module that injects content into your markdown files via hidden JavaScript snippets
 
 <!--/@-->

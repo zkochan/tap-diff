@@ -138,7 +138,7 @@ var createReporter = function createReporter() {
       var spaces = '';
       for (var i = 0; i < digit - 1; i++) {
         spaces += ' ';
-      }console.log('');
+      }println('');
       diff.forEach(function (group, i) {
         group.forEach(function (delta) {
           var text = padding;
@@ -170,14 +170,14 @@ var createReporter = function createReporter() {
           });
 
           // Ouput the delta
-          console.log(text);
+          println(text);
         });
 
         if (i != diff.length - 1) {
-          console.log(padding + _chalk2['default'].dim('...'));
+          println(padding + _chalk2['default'].dim('...'));
         }
       });
-      console.log('');
+      println('');
     };
 
     var _assert$diag = assert.diag;

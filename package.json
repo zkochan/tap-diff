@@ -9,7 +9,7 @@
   },
   "scripts": {
     "babel": "babel ./sources --out-dir ./distributions",
-    "test": "mos test",
+    "test": "mocha && mos test",
     "md": "mos"
   },
   "author": "axross <kou@axross.org> (http://axross.me/)",
@@ -27,6 +27,8 @@
   },
   "devDependencies": {
     "babel": "^5.8.34",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
     "mos": "^0.15.0"
   },
   "repository": {

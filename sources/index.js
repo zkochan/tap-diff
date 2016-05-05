@@ -79,7 +79,7 @@ const createReporter = () => {
       const digit = String(maxLine).length;
       let spaces = '';
       for (let i = 0; i < digit - 1; i++) spaces += ' ';
-      console.log('');
+      println('');
       diff.forEach((group, i) => {
         group.forEach(delta => {
           let text = padding;
@@ -111,14 +111,14 @@ const createReporter = () => {
           })
 
           // Ouput the delta
-          console.log(text);
+          println(text);
         });
 
         if (i != diff.length - 1) {
-          console.log(padding + chalk.dim('...'));
+          println(padding + chalk.dim('...'));
         }
       });
-      console.log('');
+      println('');
     };
 
     let {
