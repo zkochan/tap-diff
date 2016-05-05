@@ -64,12 +64,12 @@ test('timing test', (t) => {
 <!--@dependencies({ shield: 'flat-square' })-->
 ## <a name="dependencies">Dependencies</a> [![Dependency status for master](https://img.shields.io/david/zkochan/tap-diff/master.svg?style=flat-square)](https://david-dm.org/zkochan/tap-diff/master)
 
+- [@zkochan/pdiff](https://github.com/zkochan/pdiff): A better diffing tool
 - [chalk](https://github.com/chalk/chalk): Terminal string styling done right. Much color.
 - [diff](https://github.com/kpdecker/jsdiff): A javascript text diff implementation.
 - [duplexer](https://github.com/Raynos/duplexer): Creates a duplex stream
 - [figures](https://github.com/sindresorhus/figures): Unicode symbols with Windows CMD fallbacks
 - [jsondiffpatch](https://github.com/benjamine/jsondiffpatch): Diff & Patch for Javascript objects
-- [pdiff](https://github.com/HiroakiMikami/pdiff): A better diffing tool
 - [pretty-ms](https://github.com/sindresorhus/pretty-ms): Convert milliseconds to a human readable string: 1337000000 → 15d 11h 23m 20s
 - [tap-parser](https://github.com/substack/tap-parser): parse the test anything protocol
 - [through2](https://github.com/rvagg/through2): A tiny wrapper around Node streams2 Transform to avoid explicit subclassing noise
