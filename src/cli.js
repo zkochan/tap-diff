@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 'use strict'
-const createReporter = require('./index')
+import createReporter from './index'
 
 const reporter = createReporter();
 

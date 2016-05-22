@@ -64,8 +64,9 @@ test('timing test', (t) => {
 <!--@dependencies({ shield: 'flat-square' })-->
 ## <a name="dependencies">Dependencies</a> [![Dependency status for master](https://img.shields.io/david/zkochan/tap-diff/master.svg?style=flat-square)](https://david-dm.org/zkochan/tap-diff/master)
 
-- [@zkochan/pdiff](https://github.com/zkochan/pdiff): A better diffing tool
+- [babel-runtime](https://github.com/babel/babel/blob/master/packages): babel selfContained runtime
 - [chalk](https://github.com/chalk/chalk): Terminal string styling done right. Much color.
+- [core-js](https://github.com/zloirock/core-js): Standard library
 - [diff](https://github.com/kpdecker/jsdiff): A javascript text diff implementation.
 - [duplexer](https://github.com/Raynos/duplexer): Creates a duplex stream
 - [figures](https://github.com/sindresorhus/figures): Unicode symbols with Windows CMD fallbacks
@@ -79,6 +80,11 @@ test('timing test', (t) => {
 <!--@devDependencies({ shield: 'flat-square' })-->
 ## <a name="dev-dependencies">Dev Dependencies</a> [![devDependency status for master](https://img.shields.io/david/dev/zkochan/tap-diff/master.svg?style=flat-square)](https://david-dm.org/zkochan/tap-diff/master#info=devDependencies)
 
+- [babel-cli](https://github.com/babel/babel/blob/master/packages): Babel command line.
+- [babel-plugin-add-module-exports](https://github.com/59naga/babel-plugin-add-module-exports): Fix babel/babel#2212
+- [babel-plugin-transform-runtime](https://github.com/babel/babel/blob/master/packages): Externalise references to helpers and builtins, automatically polyfilling your code without polluting globals
+- [babel-preset-es2015](https://github.com/babel/babel/blob/master/packages): Babel preset for all es2015 plugins.
+- [babel-register](https://github.com/babel/babel/blob/master/packages): babel require hook
 - [chai](https://github.com/chaijs/chai): BDD/TDD assertion library for node.js and the browser. Test framework agnostic.
 - [mocha](https://github.com/mochajs/mocha): simple, flexible, fun test framework
 - [mos](https://github.com/zkochan/mos): A pluggable module that injects content into your markdown files via hidden JavaScript snippets

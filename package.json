@@ -2,21 +2,25 @@
   "name": "@zkochan/tap-diff",
   "version": "1.0.3",
   "description": "The most human-friendly TAP reporter",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "preferGlobal": true,
   "bin": {
-    "tap-diff": "./lib/cli.js"
+    "tap-diff": "./dist/cli.js"
   },
   "scripts": {
-    "test": "mocha && mos test",
-    "md": "mos"
+    "test-es5": "mocha --compilers js:babel-register",
+    "test": "npm run test-es5 && mos test",
+    "md": "mos",
+    "transpile": "babel src --out-dir dist",
+    "prepublish": "npm run transpile"
   },
   "author": "axross <kou@axross.org> (http://axross.me/)",
   "license": "MIT",
   "dependencies": {
-    "@zkochan/pdiff": "^1.0.0",
+    "babel-runtime": "^6.9.0",
     "chalk": "^1.1.1",
-    "diff": "^2.2.1",
+    "core-js": "^2.4.0",
+    "diff": "^2.2.2",
     "duplexer": "^0.1.1",
     "figures": "^1.4.0",
     "jsondiffpatch": "^0.1.41",
@@ -25,6 +29,11 @@
     "through2": "^2.0.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "mos": "^0.15.0"

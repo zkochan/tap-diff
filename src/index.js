@@ -1,4 +1,5 @@
 'use strict'
+import {} from 'core-js/es6/string'
 const diff = require('diff')
 const chalk = require('chalk')
 const duplexer = require('duplexer')
@@ -7,13 +8,13 @@ const through2 = require('through2')
 const parser = require('tap-parser')
 const prettyMs = require('pretty-ms')
 const jsondiffpatch = require('jsondiffpatch')
-const pdiff = require('@zkochan/pdiff')
+const pdiff = require('./pdiff')
 
 const INDENT = '  '
 const FIG_TICK = figures.tick
 const FIG_CROSS = figures.cross
 
-const createReporter = () => {
+export default function createReporter () {
   const output = through2();
   const p = parser();
   const stream = duplexer(p, output);
@@ -227,5 +228,3 @@ const createReporter = () => {
 
   return stream;
 };
-
-module.exports = createReporter
