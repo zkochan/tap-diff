@@ -7,6 +7,9 @@
   "bin": {
     "tap-diff": "./dist/cli.js"
   },
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test-es5": "mocha --compilers js:babel-register",
     "test": "npm run test-es5 && mos test",
