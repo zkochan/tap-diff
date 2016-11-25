@@ -14,16 +14,16 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.1",
-    "diff": "^2.2.1",
+    "diff": "^3.0.1",
     "duplexer": "^0.1.1",
-    "figures": "^1.4.0",
-    "jsondiffpatch": "^0.1.41",
+    "figures": "^2.0.0",
+    "jsondiffpatch": "^0.2.4",
     "pretty-ms": "^2.1.0",
-    "tap-parser": "^1.2.2",
+    "tap-parser": "^3.0.4",
     "through2": "^2.0.0"
   },
   "devDependencies": {
-    "babel": "^5.8.34"
+    "babel": "^6.5.2"
   },
   "repository": {
     "type": "git",
